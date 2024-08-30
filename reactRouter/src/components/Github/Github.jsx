@@ -37,3 +37,4 @@ export const githubinfo = async () => {
     const response = await fetch("https://api.github.com/users/Ansh022")
     return response.json()
 }
+ 
